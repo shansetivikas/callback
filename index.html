@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>js assignment 7.2</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+     <script>
+       function prepareFood(tablenum,items,cb){
+           console.log("Preparing food for items");
+            serveFood(tablenum,items);
+           
+       }
+         
+        function serveFood(tablenum,items){
+           console.log(items);
+        }
+         prepareFood(10,['burger','pasta','cake'],serveFood);
+         serveFood(10,['burger','pasta','cake']);
+         
+       
+    </script>
+   </body>
+</html>
